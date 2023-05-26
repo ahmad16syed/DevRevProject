@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Pursuit</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+    <div id="wrapper">
+        <main>
+        <h1 class="text-center mt-5"><a href="index.html">Page Pursuit</a></h1>
+        <form id="form" class="my-4">
+            <div class="input-group">
+            <input id="search-input" type="search" class="form-control" placeholder="Search for books...">
+            <div class="input-group-append">
+                <button class="btn btn-primary" type="submit">Search</button>
+            </div>
+            </div>
+        </form>
+        <div class="container">
+            <div class="row" id="search-results">
+            </div>
+            <div class="text-center mt-4">
+            <button id="load-more" class="btn btn-primary">Load Books</button>
+            </div>
+        </div>
+        </main>
+    </div>
+    <script src="./js/scripts.js"></script>
+</body>
+
+</html>
